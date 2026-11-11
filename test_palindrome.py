@@ -29,3 +29,6 @@ def test_laval_returna_true():
 
 def test_toronto_returns_false():
     assert is_palindrome("toronto") is False
+
+def test_sentence_palindrome_returns_true():
+    assert is_palindrome("Able was I ere I saw Elba") is True

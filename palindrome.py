@@ -11,7 +11,10 @@ def is_palindrome(value):
     if len(value) == 1:
         return True
 
-    letters = deque(value)
+    #letters = deque(value)
+    normalized = value.replace("","").lower()
+    letters = deque(normalized)
+
 
     while len(letters) > 1:
         left = letters.popleft()
