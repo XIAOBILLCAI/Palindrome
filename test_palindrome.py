@@ -11,3 +11,7 @@ def test_non_string_input_raise_value_error():
 
 def test_empty_string_returns_false():
     assert is_palindrome("") is False
+
+
+def test_single_character_returns_true():
+    assert is_palindrome("a") is True
