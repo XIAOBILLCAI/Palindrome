@@ -15,3 +15,7 @@ def test_empty_string_returns_false():
 
 def test_single_character_returns_true():
     assert is_palindrome("a") is True
+
+
+def test_two_identical_characters_returns_true():
+    assert is_palindrome("bb") is True
