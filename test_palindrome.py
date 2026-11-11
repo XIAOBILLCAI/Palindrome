@@ -26,3 +26,6 @@ def test_non_palindrome_returns_false():
 
 def test_laval_returna_true():
     assert is_palindrome("laval") is True
+
+def test_toronto_returns_false():
+    assert is_palindrome("toronto") is False
